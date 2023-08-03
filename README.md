@@ -27,7 +27,14 @@ pip install -r requirements.txt
 Run the report:
 
 ```sh
-python app/unemployment.py
+python app/report.py
 
-python -m app.unemployment
+python -m app.report
+```
+## Testing
+
+Run tests:
+
+```sh
+pytest
 ```
